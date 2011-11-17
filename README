@@ -1,0 +1,74 @@
+IUS IRC Bot:
+
+   Requirements:
+        launchpadlib
+        lazr.restfulclient
+        lazr.authentication
+        lazr.uri
+        simplejson
+        wadllib
+        httplib2
+        oauth
+
+  Running Bot:
+       $ ./bot.py 
+	Running IRC Bot
+	[Tue Feb 22 18:40:00 2011] Running Launchpad Check
+	 checking 673758
+	    lastupdate: Tue Feb 22 18:36:29 2011
+	    ticket created: Wed Nov 10 22:09:09 2010
+	    ticket updated: Tue Feb 22 18:39:49 2011
+	 checking 711271
+	    lastupdate: Tue Feb 22 18:40:00 2011
+	    ticket created: Tue Feb  1 14:29:44 2011
+	 checking 720289
+	    lastupdate: Tue Feb 22 18:40:00 2011
+	    ticket created: Wed Feb 16 19:25:33 2011
+	 checking 722648
+	    lastupdate: Tue Feb 22 18:40:00 2011
+	    ticket created: Mon Feb 21 15:11:27 2011
+	    ticket updated: Mon Feb 21 18:19:52 2011
+	 checking 473814
+	    lastupdate: Tue Feb 22 18:40:00 2011
+	    ticket created: Wed Nov  4 07:01:21 2009
+	 checking 576752
+	    lastupdate: Tue Feb 22 18:40:00 2011
+	    ticket created: Fri May  7 02:08:05 2010
+	    ticket updated: Wed May 19 01:26:24 2010
+	 checking 583505
+	    lastupdate: Tue Feb 22 18:40:00 2011
+	    ticket created: Thu May 20 19:52:34 2010
+	 checking 585995
+	    lastupdate: Tue Feb 22 18:40:00 2011
+	    ticket created: Wed May 26 18:26:01 2010
+	    ticket updated: Fri May 28 16:41:14 2010
+	 checking 610143
+	    lastupdate: Tue Feb 22 18:40:00 2011
+	    ticket created: Mon Jul 26 16:55:31 2010
+	 checking 612659
+	    lastupdate: Tue Feb 22 18:40:00 2011
+	    ticket created: Mon Aug  2 17:13:28 2010
+	 checking 640573
+	    lastupdate: Tue Feb 22 18:40:00 2011
+	    ticket created: Thu Sep 16 15:09:13 2010
+	    ticket updated: Thu Sep 16 18:33:29 2010
+	 checking 599970
+	    lastupdate: Tue Feb 22 18:40:00 2011
+	    ticket created: Tue Jun 29 21:42:43 2010
+	 checking 696742
+	    lastupdate: Tue Feb 22 18:40:00 2011
+	    ticket created: Mon Jan  3 10:34:43 2011
+	 checking 711604
+	    lastupdate: Tue Feb 22 18:40:00 2011
+	    ticket created: Wed Feb  2 01:33:00 2011
+	BUG UPDATE: Bug #673758 in IUS Community Project: "WL: mysql55"
+
+
+  Querying bot (running script)
+       # From IRC Chat you can message the bot
+       # and get a full listing of commands.
+       # These are scripts stored in the scripts directory
+       [#test] /msg irc_bot ls
+
+       # The bot will then respond with the results of the script
+       15:51 <irc_bot> ls - Gives a listing of available scripts

@@ -1,0 +1,10 @@
+#!/bin/bash
+#Gives a listing of available scripts
+
+abspath=$(cd ${0%/*} && echo $PWD/)
+cd $abspath
+
+for script in $(ls); do
+    def=`head -n 2 $script | tail -n 1 | sed 's/#//g'`
+    python -c "print '%-12s: %s' % ('$script', '$def')"
+done
